@@ -1,0 +1,117 @@
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.address {
+    font-style: normal;
+
+}
+
+.logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    color: black;
+}
+
+.logo-link-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    color: white;
+}
+
+.logo-link-web {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+.navigation-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    }
+
+.navactiv-link:hover,
+.navactiv-link:focus {
+    color: #2196F3;
+}
+
+.email-link,
+.tel-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.modal-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 6px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #f5f4fa;
+    cursor: pointer;
+}
+
+.modal-activbtn {
+    color: #ffffff;
+    background-color: #2196f3;
+}
+
+.img-title {
+    font-family: "Roboto", sans-serif
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.img-description {
+    font-family: "Roboto", sans-serif
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,87px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer {
+    background-color: #2F303A ;
+}
+
+.mail-link-footer,
+.tel-link-footer {
+    font-family: "Roboto", sans-serif
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link {
+    font-family: "Roboto", sans-serif
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}

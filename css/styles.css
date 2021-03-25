@@ -23,7 +23,8 @@ ul {
   padding: 0;
 }
 
-img {
+.work-list-img,
+.team-list-img {
   display: block;
 }
 
@@ -33,6 +34,8 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/* header */
 
 .header .container {
   display: flex;
@@ -60,9 +63,11 @@ img {
   margin-right: 50px;
 }
 
+.contacts-list {
+ margin-left: auto;
+}
 .email-link {
-  margin-left: 331px;
-  margin-right: 50px;
+ margin-right: 50px;
 }
 
 .logo-link {
@@ -128,9 +133,11 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
-  position: absolute;
+  justify-content: center;
   min-width: 200px;
-  
+  padding: 10px;
+  margin-top: 30px; 
+  margin-left: 500px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -142,11 +149,41 @@ img {
   cursor: pointer;
 }
 
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* advantages */
+
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+
+.advantages-list{
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.advantage-item {
+  flex-basis: calc(100%/3- 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+} 
+
 .advantage-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1,14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -161,30 +198,61 @@ img {
   color: #757575;
 }
 
-.section-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1, 16;
-  letter-spacing: 0.03em;
-  color: #212121;
+/* what we are doing */
+
+.work {
+  padding-top: 47px;
+  padding-bottom: 94px;
 }
 
-.team-titl {
-  font-family: Roboto;
+.work-list {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.work-item {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+ /* ---our team--- */
+
+.our-team {
+  padding-top: 94px;
+  padding-bottom: 94px; 
+  background: #F5F4FA;
+}
+ 
+.team-list {
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: -30px;
+   margin-top: -30px;
+ }
+
+.team-item {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+ 
+.team-title {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
+  text-align: center;
   color: #212121;
 }
 
 .team-description {
-  font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,18
+  line-height: 1,18;
   letter-spacing: 0.03em;
+  text-align: center;
   color: #757575;
 }
 
